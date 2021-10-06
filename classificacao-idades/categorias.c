@@ -7,7 +7,6 @@ int main () {
 	int idade; 
 	printf("Digite a idade do nadador: ");				// Interface de usuário, saída de dados
 	scanf("%d", &idade);								// Para classificar, preciso ler os dados
-	printf("Processando...\n");							// Pra encher linguiça kkkk
 	if (idade < 5) { 									// Se a idade for menor do que 5 anos
 	printf("Essa pessoa não pode ser classificada.");	// Printar que não posso classificar
 	}
