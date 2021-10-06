@@ -1,16 +1,7 @@
-/* Escreva um programa que leia o salário de 30 indivíduos
-(aceitar somente valores positivos). Para cada valor lido
-calcule e escreva um aumento de salário segundo dados abaixo:
-
-3% p/ salário >= 3000
-10% p/ salário entre 1000 e 3000
-15% p/ o menor <= 1000 */
-
 #include <stdio.h>	// Inicialização de IO no programa.
 #include <locale.h> // Corrigir acentuação e definir local.
 
 int main () { 
-	// Aluno: Heitor Silva Avila
 	setlocale(LC_ALL, "Portuguese");
 	// Corrigir acentuação por meio da biblioteca de local.
 
