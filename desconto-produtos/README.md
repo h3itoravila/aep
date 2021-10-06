@@ -1,5 +1,3 @@
-# Exercício Produtos
-
 Escreva um algoritmo que:</br>
 
 - Leia 50 valores que representem preços de produtos
