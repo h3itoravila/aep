@@ -1,6 +1,6 @@
-#include <stdio.h> // Inicializando I/O
+#include <stdio.h>
 
-int main () {
+int main (void) {
 	int ma[4][4], a = 0, b = 0, c = 0, d = 0;
 	// Estrutura de repetição para leitura de dados
 	for (b = 0; b < 4; b++){
