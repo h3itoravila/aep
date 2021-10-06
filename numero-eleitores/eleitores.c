@@ -1,15 +1,9 @@
 #include <stdio.h>	// Inicialização de IO no programa.
-#include <locale.h> // Corrigir acentuação e definir local.
 
-int main () { 
-	setlocale(LC_ALL, "Portuguese");
-	// Corrigir acentuação por meio da biblioteca de local.
+int main (void) { 
 	int idade = 0, cont = 0;
-	// Enquanto idade for menor ou igual a zero (condição de repetição).
 	while (idade >= 0) {
-	// Solicitar a idade.
 	printf("Digite a idade: ");
-	// Escanear a idade
 	scanf("%d", &idade);
 		// Se a idade for menor que 16 anos.
 		if (idade < 16) {
