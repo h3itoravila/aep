@@ -1,11 +1,8 @@
-#include <stdio.h>	// Inicializando o I/O
-#include <stdlib.h>	// Para uso do systempause
-#include <locale.h>	// Corrigir acentuação
+#include <stdio.h>
 
-int main () { 
-	setlocale(LC_ALL,"Portuguese");	// Corrigir acentuação
-	int vetor[9], a = 0, b = 0;		// Vetor de 10 posições
-	for (a = 0; a < 10; a++) {		// Repetição para obter valores
+int main (void) { 
+	int vetor[9], a = 0, b = 0;
+	for (a = 0; a < 10; a++) {
 		if (a % 2 == 0) {
 			vetor[a]=20;
 		}
@@ -14,9 +11,7 @@ int main () {
 		}
 	}
 	printf("Vetor: ");
-	for (a = 0; a < 10; a++) {		// Variável auxiliar
-		printf("%d ", vetor[a]);	// Saída de dados
+	for (a = 0; a < 10; a++) {
+		printf("%d ", vetor[a]);
 	}
-	printf("\n");					// Quebra de linha estética
-	system("PAUSE");				// Evita encerramento acidental
 }
