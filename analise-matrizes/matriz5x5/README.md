@@ -1,4 +1,5 @@
 Leia uma matriz M 5x5, calcule e escreva as seguintes somas:
+
 1. Da linha 3 de M
 2. Da coluna 2 de M
 3. Da diagonal principal
