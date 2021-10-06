@@ -49,5 +49,4 @@ int main (void) {
 		else { 										// SE NÃO, hora de chorar!
 		printf("REPROVADO");
 		}
-	printf("\n\n"); 								
 }
