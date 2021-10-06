@@ -1,4 +1,4 @@
-#include <stdio.h>	// Inicialização de IO no programa.
+#include <stdio.h>
 
 int main (void) { 
 	int idade = 0, cont = 0;
