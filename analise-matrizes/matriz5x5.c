@@ -63,5 +63,4 @@ int main () {
 	printf("Soma dos elementos: %d \n", soma);
 	soma = 0;
 
-	printf("Você é feliz e não sabe disso! \n");
 }
