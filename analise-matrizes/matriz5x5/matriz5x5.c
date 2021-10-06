@@ -1,7 +1,7 @@
 #include <stdio.h>	// Inicializando o I/O
 #include <locale.h>	// Corrigir acentuação
 
-int main () { 
+int main (void) { 
 	// Criando a matriz 5x5 e variáveis auxiliares
 	int matriz[5][5], a = 0, b = 0, soma = 0;
 
@@ -62,5 +62,5 @@ int main () {
 	}	
 	printf("Soma dos elementos: %d \n", soma);
 	soma = 0;
-
+	
 }
