@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdlib.h>
 
-#define VET 5
+#define VET 3000
 
 void maiorvalor(int *vetor);
 void imprimepares(int *vetor);
