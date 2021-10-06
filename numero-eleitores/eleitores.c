@@ -2,7 +2,6 @@
 #include <locale.h> // Corrigir acentuação e definir local.
 
 int main () { 
-	// Aluno: Heitor Silva Avila
 	setlocale(LC_ALL, "Portuguese");
 	// Corrigir acentuação por meio da biblioteca de local.
 	int idade = 0, cont = 0;
