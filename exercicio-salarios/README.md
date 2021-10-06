@@ -1,5 +1,3 @@
-# Exercício Salários
-
 Escreva um programa que leia o salário de 30 indivíduos</br>
 <b>Aceitar somente valores positivos</b></br>
 Para cada valor lido, calcule e escreva um aumento de salário segundo dados abaixo:</br>
