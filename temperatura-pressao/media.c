@@ -1,9 +1,6 @@
-#include <stdio.h>	// Inicialização de IO no programa.
-#include <locale.h> // Corrigir acentuação e definir local.
+#include <stdio.h>
 
-int main () { 
-	setlocale(LC_ALL, "Portuguese");
-	// Corrigir acentuação por meio da biblioteca de local.
+int main (void) {
 
 	int dia = 1;
 	float temp_dia = 0, pres_dia = 0, soma_temp = 0, soma_pres = 0, dia_quente = 0;
