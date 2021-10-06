@@ -1,12 +1,7 @@
-/* Escreva um algoritmo que leia 50 valores que representem
-preços de produtos. Escreva o valor do produto mais caro e
-dê um desconto de 12% para o produto mais barato. */
-
 #include <stdio.h>	// Inicialização de IO no programa.
 #include <locale.h> // Corrigir acentuação e definir local.
 
 int main () { 
-	// Aluno: Heitor Silva Avila
 	setlocale(LC_ALL, "Portuguese");
 	// Corrigir acentuação por meio da biblioteca de local.
 	int i;
