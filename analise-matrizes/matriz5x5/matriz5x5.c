@@ -1,5 +1,4 @@
-#include <stdio.h>	// Inicializando o I/O
-#include <locale.h>	// Corrigir acentuação
+#include <stdio.h>
 
 int main (void) { 
 	// Criando a matriz 5x5 e variáveis auxiliares
@@ -16,7 +15,7 @@ int main (void) {
 	}
 	printf("\n");
 	
-	// Saída de dados - fiz apenas para treinar
+	/* Saída de dados, apenas para treinar
 	printf("Imprimindo a matriz: \n \n");
 	for (b = 0; b < 5; b++){
 		for (a = 0; a < 5; a++) {
@@ -24,7 +23,7 @@ int main (void) {
 		}
 		printf("\n"); 
 	}
-	printf("\n");
+	printf("\n"); */
 
 	printf("Somando os elementos da linha 3: \n");
 	for (a = 0; a < 5; a++) {
