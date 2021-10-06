@@ -13,7 +13,7 @@ typedef struct{
 void preencher (Dados *agenda);
 void listarPelaData (Dados *agenda, int dia, int mes, int ano);
 
-int main() {
+int main(void) {
 	Dados agenda[100];
 	int dia, mes, ano;
 	preencher(agenda);
