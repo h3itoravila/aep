@@ -1,4 +1,4 @@
-#include <stdio.h>	// Inicializando o I/O
+#include <stdio.h>
 
 int main () { 
 	int ma[4][6], mb[4][6], ms[4][6], md[4][6], a = 0, b = 0, c = 0;
