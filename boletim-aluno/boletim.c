@@ -1,7 +1,6 @@
 #include <stdio.h>
-#include <locale.h>
-int main () {
-	setlocale(LC_ALL, "Portuguese");
+
+int main (void) {
 	int codigo;
 	float n1, n2, n3, media;
 	printf("Digite o código do aluno: ");
@@ -51,5 +50,4 @@ int main () {
 		printf("REPROVADO");
 		}
 	printf("\n\n"); 								
-	system("PAUSE"); 								// Para que eu consiga ler os resultados na tela, sem o programa finalizar
 }
