@@ -1,16 +1,14 @@
-#include <stdio.h> 	// Iniciando o I/O no meu algoritmo.
-#include <stdlib.h> // Carregando os principais comandos da linguagem C.
-#include <locale.h> // Carregando uma biblioteca que achei na internet pra exibir a acentuação corretamente.
+#include <stdio.h>
 
-int main () {
-	setlocale(LC_ALL, "Portuguese"); 					// Para exibição correta dos caracteres em português.
-	int idade; 
-	printf("Digite a idade do nadador: ");				// Interface de usuário, saída de dados
-	scanf("%d", &idade);								// Para classificar, preciso ler os dados
+int main (void) {
+
+	int idade;
+	printf("Digite a idade do nadador: ");
+	scanf("%d", &idade);
 	if (idade < 5) { 									// Se a idade for menor do que 5 anos
 	printf("Essa pessoa não pode ser classificada.");	// Printar que não posso classificar
 	}
-	else {												// Opa, é maior ou igual a 5 anos
+	else {												// É maior ou igual a 5 anos
 		printf("Classificação: ");						// Vou printar que vai ser classificado
 		if (idade < 8) {								// É menor que 8 anos?
 		printf("Infantil A."); 							// SE SIM, Printei a classificação.
@@ -34,6 +32,4 @@ int main () {
 			}	
 		}
 	}
-	printf("\n"); 		// Vou fazer isso para fins de estética na hora da execução do programa. 
-	system("PAUSE"); 	// Vou fazer isso para que eu consiga ler os resultados, sem o programa se fechar.
 }
